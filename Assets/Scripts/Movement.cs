@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
     [SerializeField] InputAction thrust;
     [SerializeField] InputAction rotation;
     [SerializeField] float thrustStrength = 100f;
-    [SerializeField] float rotationStrength = 100f;
+    [SerializeField] float rotationStrength = 1000f;
     [SerializeField] AudioClip mainEngineSFX;
     [SerializeField] ParticleSystem mainEngineParticles;
     [SerializeField] ParticleSystem rightThrustParticles;
@@ -47,7 +47,7 @@ public class Movement : MonoBehaviour
 
     private void StartThrusting()
     {
-        rb.AddRelativeForce(Vector3.up * thrustStrength * Time.fixedDeltaTime);
+        rb.AddRelativeForce(Vector3.right * thrustStrength * Time.fixedDeltaTime);
         if (!audioSource.isPlaying)
         {
             audioSource.PlayOneShot(mainEngineSFX);
