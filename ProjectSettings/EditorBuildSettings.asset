@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Over.unity
     guid: 2eb40effe115c614ca55a0388e8241b2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tunnel.unity
     guid: 3ee3d5ee2f92b8941a0738d1ad19895f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Pistons.unity
     guid: 335d0fffb8e592d45ad7277740bf0df6
+  - enabled: 1
+    path: Assets/Scenes/Over 1.unity
+    guid: ab977bb0d8fa16245b7756a73e136bf1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
