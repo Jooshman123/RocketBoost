@@ -14,9 +14,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Pistons.unity
     guid: 335d0fffb8e592d45ad7277740bf0df6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Over 1.unity
     guid: ab977bb0d8fa16245b7756a73e136bf1
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: d174ce47d5b7e9f4d8f7ebafd164ca43
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: b8468019dc25a024aadc7c00c5cf79f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
