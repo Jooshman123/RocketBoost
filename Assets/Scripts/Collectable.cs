@@ -13,7 +13,7 @@ public class CollectibleItem : MonoBehaviour
         if (other.CompareTag("Player"))
 
         {
-
+            FindAnyObjectByType<ScoreManager>().AddPoint();
             Debug.Log("Item collected");
 
             Destroy(gameObject);
